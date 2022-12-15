@@ -1,0 +1,119 @@
+body {
+    background-color:hsl(185, 41%, 84%);
+    letter-spacing: 0.5px;
+    font-family: 'Space Mono';
+}
+
+span {
+    font-size: 0.7rem;
+    opacity: 70%;
+}
+
+
+.title {
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+/* Changing font opacity */
+.opac {
+    opacity: 80%;
+}
+
+/* Change the text input color */
+.text-input {
+    background-color: rgba(232, 232, 232, 0.37);
+    text-align: right;
+    color: hsl(180, 72%, 17%);
+    font-size: 1.2rem;
+    border: 0 #28c1ac solid;
+}
+
+
+
+.text-input:focus {
+    border: 3px #28c1ac solid;
+    background-color: rgba(232, 232, 232, 0.37);
+}
+
+
+/* label font size */
+.lab{
+    font-size: 0.9rem;
+}
+
+/* Title style */
+#title-div{
+    margin-top: 5%;
+}
+
+/* Main card  */
+#main{
+    margin: 0 22%;
+    background-color: white;
+}
+
+#Results {
+    background-color:  hsl(183, 100%, 15%);
+    color: white;   
+    font-size: 0.9rem;
+}
+
+#Results h1{
+    color: #28c1ac;
+}
+
+#custom-per {
+    font-size: 1.5rem;
+}
+
+#custom-per::placeholder {
+    
+    color: hsl(180, 72%, 17%);
+}
+
+#reset-btn {
+    background-color: #26c2ad;
+    color: hsl(180, 72%, 17%);
+}
+
+#reset-btn:hover {
+    background-color: #9fe8df;
+}
+
+.per-btn {
+    background-color:  hsl(183, 100%, 15%);
+    letter-spacing: 2px;
+    border: 0;
+    color: white;
+}
+
+.per-btn:hover {
+    background-color: #9fe8df;
+    color: hsl(180, 72%, 17%);
+}
+
+.clicked-btn{
+    background-color: #9fe8df;
+    color:hsl(180, 72%, 17%);
+}
+
+.form-control {
+    
+}
+
+
+
+.failed-input {
+    border: 3px #28c1ac solid;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    #main{
+        margin: 0;
+        background-color: white;
+    }
+}
